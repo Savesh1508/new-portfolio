@@ -1,198 +1,166 @@
 import { ref } from 'vue';
-import responsiveImg from '../assets/img/responsive.png'
-import crmImg from '../assets/img/crm.png'
-import spaImg from '../assets/img/spa.png'
-import architectImg from '../assets/img/architect.png'
-import botImg from '../assets/img/bot.png'
-import seoImg from '../assets/img/seo.png'
-import nestImg from '../assets/img/nest.jpg'
-import crudImg from '../assets/img/crud.jpg'
-import achiveImg from '../assets/img/achive.jpg'
-import leaderImg from '../assets/img/leader.jpg'
-import ntImg from '../assets/img/nt.jpg'
-import inventoryImg from '../assets/img/inventory.jpg'
-import portfolioImg from '../assets/img/portfolio.jpg'
+import graphicDesignImg from '../assets/img/graphic-design.png'
+import targetImg from '../assets/img/target.png'
+import promotionImg from '../assets/img/promotion.png'
+import smmImg from '../assets/img/smm.png'
+import analyzeImg from '../assets/img/analyze.png'
+import responseImg from '../assets/img/discussion.png'
+import smm from '../assets/img/smm.jpg'
+import graphicImg from '../assets/img/graphic.jpg'
+import fit1Img from '../assets/img/projects/fit-1.jpg'
+import fit2Img from '../assets/img/projects/fit-2.jpg'
+import fit3Img from '../assets/img/projects/fit-3.jpg'
+import fit4Img from '../assets/img/projects/fit-4.jpg'
+import fit5Img from '../assets/img/projects/fit-5.jpg'
+import fit6Img from '../assets/img/projects/fit-6.jpg'
+import fit7Img from '../assets/img/projects/fit-7.jpg'
+import adv1Img from '../assets/img/projects/adv-1.jpg'
+import adv2Img from '../assets/img/projects/adv-2.jpg'
+import adv3Img from '../assets/img/projects/adv-3.jpg'
+import edu1Img from '../assets/img/projects/edu-1.jpg'
+import edu2Img from '../assets/img/projects/edu-2.jpg'
+import trainerImg from '../assets/img/projects/trainer.jpg'
+import pizzaImg from '../assets/img/projects/pizza.jpg'
 
 const services = ref([
   {
     id: 1,
-    img: responsiveImg,
-    title: "Responsive Design",
-    subtitle: "Creating a responsive web template"
+    img: graphicDesignImg,
+    title: "Graphic Design",
+    subtitle: "Creating unique graphic materials"
   },
   {
     id: 2,
-    img: crmImg,
-    title: "CRM Systems",
-    subtitle: "CRM systems to grow your business"
+    img: targetImg,
+    title: "Targeting",
+    subtitle: "Targeting to suitable audience"
   },
   {
     id: 3,
-    img: spaImg,
-    title: "SPA",
-    subtitle: "Creating a Single Page Applications"
+    img: promotionImg,
+    title: "Business Promotion",
+    subtitle: "Creating a business plan"
   },
   {
     id: 4,
-    img: architectImg,
-    title: "Backend Architecture",
-    subtitle: "Building backend applications and their architecture"
+    img: smmImg,
+    title: "Social Media Marketing",
+    subtitle: "Maintaining social networks"
   },
   {
     id: 5,
-    img: botImg,
-    title: "Telegram Bot",
-    subtitle: "Creating all kinds of telegram bots"
+    img: analyzeImg,
+    title: "Business Analyze",
+    subtitle: "Business and competitor analyzes"
   },
   {
     id: 6,
-    img: seoImg,
-    title: "Hosting",
-    subtitle: "Domen, Hosting and SEO optimization"
+    img: responseImg,
+    title: "Response to Clients",
+    subtitle: "Discussing solutions with clients"
   },
 ]);
 
 const education = ref([
   {
     id: 1,
-    location: "Najot Ta'lim",
+    location: "WePro",
     level: "Student",
-    date: "June 2022 - Sep 2022",
-    course: "Foundations of Programming",
-    text: "From June to September 2022, I immersed myself in learning basic programming, algorithms, and languages such as C and Python at Najot Ta'lim. This intensive period equipped me with foundational programming skills, deepened my understanding of algorithmic principles, and enhanced my proficiency in practical coding."
+    date: "Nov 2023 - March 2024",
+    course: "Social Media Marketing course",
+    text: "From Nov 2023 to March 2024 I studied what internet marketing is, internet marketing tools and internet marketing elements. And in the second month I started studying business clients and how to analyze them, after that I studied CRM, Hunt ladders and positioning. In the last month I studied targeting"
   },
   {
     id: 2,
-    location: "Najot Ta'lim",
+    location: "WePro",
     level: "Student",
-    date: "Nov 2022 - Aug 2023",
-    course: "Node.js bootcamp course",
-    text: "Starting from November 2022, I delved deep into Node.js, gaining experience in database management, server deployment, and working with various Node.js frameworks. This experience expanded my skills in backend development, enabling me to efficiently work with databases, manage servers, and utilize different frameworks to create robust web applications."
+    date: "April 2024 - Oct 2024",
+    course: "Graphic Design course",
+    text: "In graphic design, in the first month I studied Adobe Illustrator to create icons and logos. After that, I began to study Adobe Photoshop and created several posts for social networks, covers and banners for the marketplace."
   },
-  {
-    id: 3,
-    location: "Najot Ta'lim",
-    level: "Student",
-    date: "Oct 2023 - Feb 2024",
-    course: "Vue.js bootcamp course",
-    text: "From October 2023 to February 2024, I delved deep into Vue.js at Najot Ta'lim educational center, focusing on frontend development, API integration, exploring Vite, and leading a team as a team leader. I collaborated in teams to create various small websites for hands-on experience. This period significantly enhanced my skills in frontend web development, API integration, project management, and leadership."
-  },
-]);
-
-const abilities = ref([
-    {
-      "name": "ExpressJS",
-      "icon": "https://img.icons8.com/fluency/48/000000/node-js.png"
-    },
-    {
-      "name": "NodeJS",
-      "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
-    },
-    {
-      "name": "HTML5",
-      "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
-    },
-    {
-      "name": "CSS3",
-      "icon": "https://img.icons8.com/color/48/000000/css3.png"
-    },
-    {
-      "name": "Python",
-      "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
-    },
-    {
-      "name": "JavaScript",
-      "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-      "name": "TypeScript",
-      "icon": "https://img.icons8.com/fluency/48/000000/typescript.png"
-    },
-    {
-      "name": "VueJS",
-      "icon": "https://img.icons8.com/fluency/48/000000/vuejs.png"
-    },
-    {
-      "name": "NestJS",
-      "icon": "https://img.icons8.com/color/48/nestjs.png"
-    },
-    {
-      "name": "NuxtJS",
-      "icon": "https://img.icons8.com/color/48/nuxt-jc.png"
-    },
-    {
-      "name": "MongoDB",
-      "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
-    },
-    {
-      "name": "MySQL",
-      "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
-    },
-    {
-      "name": "PostgreSQL",
-      "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
-    },
-    {
-      "name": "GitHub",
-      "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
-    },
-    {
-      "name": "Git VCS",
-      "icon": "https://img.icons8.com/color/48/000000/git.png"
-    },
 ]);
 
 const projects = ref([
-  {
-    id: 1,
-    img: "https://toshtemirov.netlify.app/images/mini-apps/mandarin.jpg",
-    name: "Uzum Clone",
-    link: "https://mandarinshopp.netlify.app"
-  },
-  {
-    id: 2,
-    img: inventoryImg,
-    name: "Inventory",
-    link: "https://inventory-task.netlify.app"
-  },
-  {
-    id: 3,
-    img: portfolioImg,
-    name: "Portfolio",
-    link: "https://savlatxon-eshonov.netlify.app"
-  },
-  {
-    id: 4,
-    img: nestImg,
-    name: "Nest Shop",
-    link: "https://github.com/arziqulovsamandar/product"
-  },
-  {
-    id: 5,
-    img: crudImg,
-    name: "CRM project",
-    link: "https://github.com/Educate-CRM/edu-frontend"
-  },
+  [
+    {
+      id: 2,
+      img: fit2Img
+    },
+    {
+      id: 3,
+      img: fit3Img
+    },
+    {
+      id: 4,
+      img: fit4Img
+    },
+    {
+      id: 5,
+      img: fit5Img
+    },
+    {
+      id: 6,
+      img: fit6Img
+    },
+    {
+      id: 7,
+      img: fit7Img
+    },
+  ],
+
+  [
+    {
+      id: 1,
+      img: adv1Img
+    },
+    {
+      id: 2,
+      img: adv2Img
+    },
+    {
+      id: 3,
+      img: adv3Img
+    },
+  ],
+
+  [
+    {
+      id: 1,
+      img: edu1Img
+    },
+    {
+      id: 2,
+      img: edu2Img
+    },
+  ],
+
+  [
+    {
+      id: 1,
+      img: trainerImg
+    },
+  ],
+
+  [
+    {
+      id: 1,
+      img: pizzaImg
+    },
+  ],
 ]);
 
 const achievements = ref([
   {
     id: 1,
-    title: "Full Stack Developer",
-    subtitle: "I graduated from the \"Najot Ta'lim\" training center and received a \"Fullstack Developer\" specialist certificate",
-    img: achiveImg
+    title: "Social Media Marketolog",
+    subtitle: "I graduated from the \"WePro\" learning center and received a \"Social Media Marketing\" specialist certificate",
+    img: smm
   },
   {
     id: 2,
-    title: "Team Leader",
-    subtitle: "My team has entrusted me with leadership on many projects",
-    img: leaderImg
-  },
-  {
-    id: 3,
-    title: "Best IT center in Uzbekistan",
-    subtitle: "In January 2024, Najot Ta'lim received the award \"The best IT training Center in Uzbekistan\"",
-    img: ntImg
+    title: "Graphic Designer",
+    subtitle: "I graduated from the \"WePro\" learning center and received a \"Graphic Design\" specialist certificate",
+    img: graphicImg
   },
 ]);
 
@@ -201,7 +169,6 @@ const achievements = ref([
 export {
   services,
   education,
-  abilities,
   projects,
   achievements
 }

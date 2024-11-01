@@ -5,8 +5,9 @@
   >
     <div class="w-full pb-6 mb-6 border-b-[1px] border-[#383838]">
       <img src="@/assets/img/myphoto.jpg" alt="Photo" class="w-[65%] mx-auto mb-[32px] rounded-[50%]">
-      <h3 class="text-[22px] mb-3 font-semibold text-white text-center">Savlatxon Eshonov</h3>
-      <p class="text-white mb-4 text-[16px] text-center opacity-80 font-medium">Full-Stack Developer</p>
+      <h3 class="text-[22px] mb-3 font-semibold text-white text-center">Daler Bahodirov</h3>
+      <p class="text-white text-[16px] text-center opacity-80 font-medium">Graphic Designer</p>
+      <p class="text-white mb-4 text-[16px] text-center opacity-80 font-medium">SMM Marketolog</p>
       <div class="flex justify-center">
         <a v-for="contact in contacts" :key="contact.id" :href="contact.link"
           class="hover:bg-white transition-all duration-200 mx-[3px] 2xl:mx-[6px] bg-[#FFB400] w-[32px] h-[32px] rounded-[50%] flex justify-center items-center">
@@ -79,7 +80,7 @@
 <script setup>
   import { languages, skills, contacts, infos, exSkills } from '../../store/sidebar.js';
   import { useVisibilitiesStore } from '../../store/visibilities.js';
-  import pdfFile from '@/assets/files/eshonov.pdf';
+  import pdfFile from '@/assets/files/bahodirov.pdf';
 
   const sidebarStore = useVisibilitiesStore();
 </script>

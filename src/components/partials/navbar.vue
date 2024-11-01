@@ -22,9 +22,6 @@
       <a href="#education" class="nav-link">
         <i class="bx bx-detail text-[#131313] text-[20px]"></i>
       </a>
-      <a href="#skills" class="nav-link">
-        <i class="bx bx-network-chart text-[#131313] text-[20px]"></i>
-      </a>
       <a href="#works" class="nav-link">
         <i class="bx bxs-briefcase-alt-2 text-[#131313] text-[20px]"></i>
       </a>
