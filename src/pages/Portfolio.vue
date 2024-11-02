@@ -48,7 +48,7 @@
         </section>
       </div>
       <footer class="h-[100px] bg-[#242424] flex justify-center items-center text-white text-[20px] text-bold">
-        2024 Daler Bahodirov
+        Site by Savlatxon Eshonov, 2024
       </footer>
     </div>
     <Navbar />
