@@ -21,6 +21,16 @@ import edu1Img from '../assets/img/projects/edu-1.jpg'
 import edu2Img from '../assets/img/projects/edu-2.jpg'
 import trainerImg from '../assets/img/projects/trainer.jpg'
 import pizzaImg from '../assets/img/projects/pizza.jpg'
+import school0Img from '../assets/img/projects/school-0.jpg'
+import school1Img from '../assets/img/projects/school-1.jpg'
+import school2Img from '../assets/img/projects/school-2.jpg'
+import school3Img from '../assets/img/projects/school-3.jpg'
+import school4Img from '../assets/img/projects/school-4.jpg'
+import school5Img from '../assets/img/projects/school-5.jpg'
+import school6Img from '../assets/img/projects/school-6.jpg'
+import school7Img from '../assets/img/projects/school-7.jpg'
+import school8Img from '../assets/img/projects/school-8.jpg'
+import school9Img from '../assets/img/projects/school-9.jpg'
 
 const services = ref([
   {
@@ -131,6 +141,48 @@ const projects = ref([
     {
       id: 2,
       img: edu2Img
+    },
+  ],
+
+  [
+    {
+      id: 2,
+      img: school1Img
+    },
+    {
+      id: 3,
+      img: school2Img
+    },
+    {
+      id: 4,
+      img: school3Img
+    },
+    {
+      id: 5,
+      img: school4Img
+    },
+    {
+      id: 6,
+      img: school5Img
+    },
+    {
+      id: 7,
+      img: school6Img
+    },
+  ],
+
+  [
+    {
+      id: 1,
+      img: school7Img
+    },
+    {
+      id: 2,
+      img: school8Img
+    },
+    {
+      id: 3,
+      img: school9Img
     },
   ],
 
